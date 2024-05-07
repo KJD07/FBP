@@ -1,0 +1,185 @@
+p{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+.same{
+    display: flex;
+}
+
+.seperated{
+  margin-left: 30px;
+}
+
+td{
+    color: white;
+}
+
+.tdtext{
+  color: black;
+  margin-top: 20px;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+  
+  .checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #2196f3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+
+a{
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    text-decoration: none;
+    color: white;
+}
+
+.bill{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bill1{
+  background-color: #494D5F;
+  border-radius: 10px;
+}
+
+.borderless-table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.borderless-table th,
+.borderless-table td {
+  border: none;
+  padding: 10px 30px; /* Adjust padding as needed */
+  color: black;
+  background-color: white;
+}
+
+.borderless-table input[type="number"] {
+  color: black; /* Set text color to black */
+  width: 80px;
+  padding: 5px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  border: 1px solid #ccc; /* Add a border for visibility */
+  border-radius: 5px; /* Add some border-radius for styling */
+}
+
+/* .borderless-table th:not(:first-child),
+.borderless-table td:not(:first-child) {
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+} */
+
+/* Add CSS for the last cell in each row to avoid having a border on the right */
+/* .borderless-table th:last-child,
+.borderless-table td:last-child {
+  border-right: none;
+} */
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Optional: Set height to fill the viewport */
+    width: 80vh;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+a:hover{
+    color: black;
+}
+
+button{
+    color: white;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* .btn{
+    margin-right: 10px;
+    margin-left: 10px;
+} */
+
+.center{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
